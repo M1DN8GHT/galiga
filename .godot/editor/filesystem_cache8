@@ -1,0 +1,70 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1733157439
+LICENSE.txt::TextFile::-1::1733157439::0::1::::<><>::
+Space_BG (2 frames) (64 x 64).png::CompressedTexture2D::6902041487430416453::1733157439::1733157439::1::::<><>::
+::res://Assets/::1733157463
+LICENSE.txt::TextFile::-1::1733157463::0::1::::<><>::
+Space_BG (2 frames) (64 x 64).png::CompressedTexture2D::2086170912825343333::1733157463::1733157464::1::::<><>::
+::res://Assets/Enemies/::1733157463
+Alan (16 x 16).png::CompressedTexture2D::5544822016231398036::1733157463::1733157464::1::::<><>::
+Bon_Bon (16 x 16).png::CompressedTexture2D::6389935089374037468::1733157463::1733157464::1::::<><>::
+Lips (16 x 16).png::CompressedTexture2D::3541337776755346887::1733157463::1733157464::1::::<><>::
+::res://Assets/Items/::1733157463
+Circle_+_Square_+_Missile_pick-ups (16 x 16).png::CompressedTexture2D::7859815319206021777::1733157463::1733157464::1::::<><>::
+Power_item (16 x 16).png::CompressedTexture2D::522796712511518922::1733157463::1733157464::1::::<><>::
+::res://Assets/Player ship/::1733157463
+Boosters (16 x 16).png::CompressedTexture2D::658021914702362625::1733157463::1733157464::1::::<><>::
+Boosters_left (16 x 16).png::CompressedTexture2D::5364952292033792240::1733157463::1733157464::1::::<><>::
+Boosters_right (16 x 16).png::CompressedTexture2D::2891337976092467333::1733157463::1733157464::1::::<><>::
+Player_ship (16 x 16).png::CompressedTexture2D::842775343068721941::1733157463::1733157464::1::::<><>::
+::res://Assets/Projectiles/::1733157463
+Enemy_projectile (16 x 16).png::CompressedTexture2D::6308398585180502825::1733157463::1733157464::1::::<><>::
+Player_beam (16 x 16).png::CompressedTexture2D::6424634251203185165::1733157463::1733157464::1::::<><>::
+Player_charged_beam (16 x 16).png::CompressedTexture2D::2768352677127436437::1733157463::1733157464::1::::<><>::
+Player_charged_donut_shot (16 x 16).png::CompressedTexture2D::7476385987906163127::1733157463::1733157464::1::::<><>::
+Player_charged_square_shot (16 x 16).png::CompressedTexture2D::6202253177956494524::1733157463::1733157464::1::::<><>::
+Player_donut_shot (16 x 16).png::CompressedTexture2D::3672953239075332850::1733157463::1733157464::1::::<><>::
+Player_missile_shots (16 x 16).png::CompressedTexture2D::5853232274479386698::1733157463::1733157464::1::::<><>::
+Player_square_shot (16 x 16).png::CompressedTexture2D::5548469253593159107::1733157463::1733157464::1::::<><>::
+::res://Assets/Scenes/::1733157463
+::res://Assets/Scripts/::1733157463
+::res://Assets/UI objects/::1733157463
+GAME_OVER (72 x 8).png::CompressedTexture2D::3490998248689059360::1733157463::1733157464::1::::<><>::
+Item_held_box (16 x 16).png::CompressedTexture2D::2473664954463985225::1733157463::1733157464::1::::<><>::
+Number_font (8 x 8).png::CompressedTexture2D::3333834188350797767::1733157463::1733157464::1::::<><>::
+Player_life_icon (16 x 16).png::CompressedTexture2D::2645558397561035592::1733157463::1733157464::1::::<><>::
+Power_+_charge_bars (full + empty) (32 x 16).png::CompressedTexture2D::994596966540157414::1733157463::1733157464::1::::<><>::
+START (48 x 8).png::CompressedTexture2D::7842890848472435375::1733157463::1733157464::1::::<><>::
+::res://Effects/::1733157439
+Explosion (16 x 16).png::CompressedTexture2D::1190679878587472521::1733157439::1733157439::1::::<><>::
+Sparkle (16 x 16).png::CompressedTexture2D::8269088832441181072::1733157439::1733157439::1::::<><>::
+::res://Enemies/::1733157439
+Alan (16 x 16).png::CompressedTexture2D::1507305329068208093::1733157439::1733157439::1::::<><>::
+Bon_Bon (16 x 16).png::CompressedTexture2D::4413510237605604493::1733157439::1733157439::1::::<><>::
+Lips (16 x 16).png::CompressedTexture2D::152976721824089269::1733157439::1733157439::1::::<><>::
+::res://Items/::1733157439
+Circle_+_Square_+_Missile_pick-ups (16 x 16).png::CompressedTexture2D::2134333771223621603::1733157439::1733157439::1::::<><>::
+Power_item (16 x 16).png::CompressedTexture2D::3818042429318367702::1733157439::1733157439::1::::<><>::
+::res://Player ship/::1733157439
+Boosters (16 x 16).png::CompressedTexture2D::2171824448363190308::1733157439::1733157439::1::::<><>::
+Boosters_left (16 x 16).png::CompressedTexture2D::5336616822417063185::1733157439::1733157439::1::::<><>::
+Boosters_right (16 x 16).png::CompressedTexture2D::4974918143390256241::1733157439::1733157439::1::::<><>::
+Player_ship (16 x 16).png::CompressedTexture2D::8076778866034606878::1733157439::1733157439::1::::<><>::
+::res://Projectiles/::1733157439
+Enemy_projectile (16 x 16).png::CompressedTexture2D::6045887677068983397::1733157439::1733157439::1::::<><>::
+Player_beam (16 x 16).png::CompressedTexture2D::5454720975405896350::1733157439::1733157439::1::::<><>::
+Player_charged_beam (16 x 16).png::CompressedTexture2D::1249611583505063608::1733157439::1733157439::1::::<><>::
+Player_charged_donut_shot (16 x 16).png::CompressedTexture2D::5560019950091974051::1733157439::1733157439::1::::<><>::
+Player_charged_square_shot (16 x 16).png::CompressedTexture2D::3918514790722724902::1733157439::1733157439::1::::<><>::
+Player_donut_shot (16 x 16).png::CompressedTexture2D::3298002934353777842::1733157439::1733157439::1::::<><>::
+Player_missile_shots (16 x 16).png::CompressedTexture2D::1641547335102698421::1733157439::1733157439::1::::<><>::
+Player_square_shot (16 x 16).png::CompressedTexture2D::7974943980693508371::1733157439::1733157439::1::::<><>::
+::res://Scenes/::1733157299
+::res://Scripts/::1733157309
+::res://UI objects/::1733157439
+GAME_OVER (72 x 8).png::CompressedTexture2D::5267674552127204937::1733157439::1733157439::1::::<><>::
+Item_held_box (16 x 16).png::CompressedTexture2D::9139774050051770250::1733157439::1733157439::1::::<><>::
+Number_font (8 x 8).png::CompressedTexture2D::2913783574424916832::1733157439::1733157439::1::::<><>::
+Player_life_icon (16 x 16).png::CompressedTexture2D::480313784044103110::1733157439::1733157439::1::::<><>::
+Power_+_charge_bars (full + empty) (32 x 16).png::CompressedTexture2D::7955074297256616640::1733157439::1733157439::1::::<><>::
+START (48 x 8).png::CompressedTexture2D::8455353724031350816::1733157439::1733157439::1::::<><>::
