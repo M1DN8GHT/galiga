@@ -15,7 +15,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elasped time since the previous frame.
 func _process(delta: float) -> void:
 	var input = Input.get_vector("left", "right", "up", "down")
-	
+
 	if input.x > 0:
 		$Ship.frame = 2
 		$Ship/Booster.animation = "right"
@@ -25,19 +25,17 @@ func _process(delta: float) -> void:
 	else:
 		$Ship.frame = 1
 		$Ship/Booster.animation = "forward"
-	
+
 	if Input.is_action_pressed("shoot"):
 		shoot()
-
-
 	position += input * speed * delta
 	position = position.clamp(Vector2(8,8), screensize - Vector2(8,16))
 
 func start():
 	position = Vector2(screensize.x/2, screensize.y-64)
 	$GunCooldown.wait_time = cooldown 
-	
-	
+
+
 func shoot():
 	if not can_shoot:
 		return
@@ -47,3 +45,7 @@ func shoot():
 	get_tree().root.add_child(l)
 	l.start(position + Vector2(0,-8))
 	
+
+
+func _on_gun_cooldown_timeout() -> void:
+	can_shoot = true

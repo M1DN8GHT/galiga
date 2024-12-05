@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://mainfdt1grvx" path="res://Assets/Player ship/Player_ship (16 x 16).png" id="1_7tqsa"]
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_hxfcx"]
 [ext_resource type="Texture2D" uid="uid://cio28lmpffuyy" path="res://Assets/Player ship/Boosters_left (16 x 16).png" id="2_hr5rr"]
-[ext_resource type="PackedScene" path="res://Scenes/laser.tscn" id="2_ustoc"]
+[ext_resource type="PackedScene" uid="uid://d3w5u8wkrtnkh" path="res://Scenes/laser.tscn" id="2_ustoc"]
 [ext_resource type="Texture2D" uid="uid://bhgt6cvj36qfd" path="res://Assets/Player ship/Boosters_right (16 x 16).png" id="3_bouhk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ekkgr"]
@@ -90,3 +90,5 @@ shape = SubResource("RectangleShape2D_kpmjf")
 
 [node name="GunCooldown" type="Timer" parent="."]
 one_shot = true
+
+[connection signal="timeout" from="GunCooldown" to="." method="_on_gun_cooldown_timeout"]
