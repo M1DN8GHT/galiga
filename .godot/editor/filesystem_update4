@@ -1,3 +1,4 @@
 res://Scripts/player.gd
 res://player.tscn
 res://laser.tscn
+res://Scenes/main.tscn
