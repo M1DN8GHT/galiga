@@ -33,9 +33,7 @@ func _process(delta: float) -> void:
 
 func start():
 	position = Vector2(screensize.x/2, screensize.y-64)
-	$GunCooldown.wait_time = cooldown 
-
-
+	$GunCooldown.wait_time = cooldown
 func shoot():
 	if not can_shoot:
 		return

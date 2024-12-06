@@ -1,8 +1,9 @@
-[gd_scene load_steps=13 format=3 uid="uid://c2sjl28x1lj2l"]
+[gd_scene load_steps=14 format=3 uid="uid://bleaoyt5st2me"]
 
 [ext_resource type="Texture2D" uid="uid://mainfdt1grvx" path="res://Assets/Player ship/Player_ship (16 x 16).png" id="1_7tqsa"]
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_hxfcx"]
 [ext_resource type="Texture2D" uid="uid://cio28lmpffuyy" path="res://Assets/Player ship/Boosters_left (16 x 16).png" id="2_hr5rr"]
+[ext_resource type="PackedScene" uid="uid://4567a4wphxmf" path="res://Scenes/laser.tscn" id="2_yxc24"]
 [ext_resource type="Texture2D" uid="uid://bhgt6cvj36qfd" path="res://Assets/Player ship/Boosters_right (16 x 16).png" id="3_bouhk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ekkgr"]
@@ -70,6 +71,7 @@ size = Vector2(14, 14)
 
 [node name="Player" type="Area2D"]
 script = ExtResource("1_hxfcx")
+laser_scene = ExtResource("2_yxc24")
 
 [node name="Ship" type="Sprite2D" parent="."]
 texture = ExtResource("1_7tqsa")
@@ -86,5 +88,7 @@ autoplay = "forward"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_kpmjf")
 
-[node name="GunCoolDown" type="Timer" parent="."]
+[node name="GunCooldown" type="Timer" parent="."]
 one_shot = true
+
+[connection signal="timeout" from="GunCooldown" to="." method="_on_gun_cooldown_timeout"]

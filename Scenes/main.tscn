@@ -1,6 +1,22 @@
-[gd_scene load_steps=5 format=3 uid="uid://ct6xb52l1gyoe"]
+[gd_scene load_steps=6 format=3 uid="uid://ct6xb52l1gyoe"]
 
 [ext_resource type="Texture2D" uid="uid://4ys6viix3lv6" path="res://Assets/Space_BG (2 frames) (64 x 64).png" id="1_xw8no"]
+[ext_resource type="PackedScene" uid="uid://bleaoyt5st2me" path="res://Scenes/player.tscn" id="2_vmujd"]
+
+[sub_resource type="Animation" id="Animation_50owt"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Background:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Rect2(0, 0, 240, 320)]
+}
 
 [sub_resource type="Animation" id="Animation_pujxl"]
 resource_name = "scroll"
@@ -17,21 +33,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Rect2(0, 64, 240, 320), Rect2(0, 0, 240, 320)]
-}
-
-[sub_resource type="Animation" id="Animation_50owt"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Background:region_rect")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Rect2(0, 0, 240, 320)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_rbb3m"]
@@ -54,3 +55,6 @@ libraries = {
 "": SubResource("AnimationLibrary_rbb3m")
 }
 autoplay = "scroll"
+
+[node name="Player" parent="." instance=ExtResource("2_vmujd")]
+position = Vector2(122, 264)
