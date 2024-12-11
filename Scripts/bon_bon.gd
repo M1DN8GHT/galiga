@@ -15,7 +15,7 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	position.y += speed * delta
-	if position.y > screensize.y +32:
+	if position.y > screensize.y + 32:
 		start(start_pos)
 
 
