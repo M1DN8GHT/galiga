@@ -46,6 +46,7 @@ func _on_shoot_timer_timeout() -> void:
 func explode() -> void:
 	speed = 0
 	$Sprite2D.hide()
+	$Explosion.show()
 	$AnimationPlayer.play("explode")
 	set_deferred("monitoring", false)
 	died.emit(5)

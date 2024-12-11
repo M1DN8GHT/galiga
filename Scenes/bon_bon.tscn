@@ -195,6 +195,7 @@ one_shot = true
 one_shot = true
 
 [node name="Explosion" type="Sprite2D" parent="."]
+visible = false
 texture = ExtResource("3_ggiay")
 hframes = 6
 frame = 4
