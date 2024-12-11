@@ -186,7 +186,7 @@ shape = SubResource("RectangleShape2D_4hsqb")
 libraries = {
 "": SubResource("AnimationLibrary_ndhot")
 }
-autoplay = "explode"
+autoplay = "bounce"
 
 [node name="MoveTimer" type="Timer" parent="."]
 one_shot = true

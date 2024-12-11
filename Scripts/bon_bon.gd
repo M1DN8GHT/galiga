@@ -43,7 +43,6 @@ func _on_shoot_timer_timeout() -> void:
 	$ShootTimer.start()
 
 
-
 func explode() -> void:
 	speed = 0
 	$Sprite2D.hide()

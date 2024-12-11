@@ -1,6 +1,6 @@
-res://Scenes/bon_bon.tscn
-res://Scripts/player.gd
 res://Scenes/main.tscn
+res://Scripts/player.gd
 res://Scenes/player.tscn
+res://Scenes/bon_bon.tscn
 res://Scenes/laser.tscn
 res://Scripts/bon_bon.gd

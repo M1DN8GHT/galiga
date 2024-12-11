@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733848449
+::res://::1733934515
 README.md::TextFile::-1::1733159543::0::1::::<><>::
 ::res://Assets/::1733764301
 LICENSE.txt::TextFile::-1::1733157463::0::1::::<><>::
@@ -35,13 +35,13 @@ Number_font (8 x 8).png::CompressedTexture2D::3333834188350797767::1733157463::1
 Player_life_icon (16 x 16).png::CompressedTexture2D::2645558397561035592::1733157463::1733157464::1::::<><>::
 Power_+_charge_bars (full + empty) (32 x 16).png::CompressedTexture2D::994596966540157414::1733157463::1733157464::1::::<><>::
 START (48 x 8).png::CompressedTexture2D::7842890848472435375::1733157463::1733157464::1::::<><>::
-::res://Scenes/::1733764329
-bon_bon.tscn::PackedScene::2820278209157664249::1733764329::0::1::::<><>::uid://cxblkdyxg4s01::::res://Assets/Enemies/Bon_Bon (16 x 16).png<>res://Scripts/bon_bon.gd
-laser.tscn::PackedScene::2099347216124704033::1733763145::0::1::::<><>::res://Scripts/laser.gd<>uid://bfpamm62h4y66::::res://Assets/Projectiles/Player_charged_beam (16 x 16).png
+::res://Scenes/::1733850675
+bon_bon.tscn::PackedScene::2820278209157664249::1733850418::0::1::::<><>::uid://cxblkdyxg4s01::::res://Assets/Enemies/Bon_Bon (16 x 16).png<>res://Scripts/bon_bon.gd<>uid://nv1ady6ba44c::::res://Assets/Effects/Explosion (16 x 16).png
+laser.tscn::PackedScene::2099347216124704033::1733850418::0::1::::<><>::res://Scripts/laser.gd<>uid://bfpamm62h4y66::::res://Assets/Projectiles/Player_charged_beam (16 x 16).png
 main.gd::GDScript::-1::1733763141::0::1::::<>Node2D<>::
-main.tscn::PackedScene::6171825001457226032::1733763156::0::1::::<><>::res://Scenes/main.gd<>uid://4ys6viix3lv6::::res://Assets/Space_BG (2 frames) (64 x 64).png<>uid://bleaoyt5st2me::::res://Scenes/player.tscn
-player.tscn::PackedScene::3166781767141947456::1733763145::0::1::::<><>::uid://mainfdt1grvx::::res://Assets/Player ship/Player_ship (16 x 16).png<>res://Scripts/player.gd<>uid://cio28lmpffuyy::::res://Assets/Player ship/Boosters_left (16 x 16).png<>uid://4567a4wphxmf::::res://Scenes/laser.tscn<>uid://bhgt6cvj36qfd::::res://Assets/Player ship/Boosters_right (16 x 16).png
-::res://Scripts/::1733762440
-bon_bon.gd::GDScript::-1::1733762440::0::1::::<>Area2D<>::
+main.tscn::PackedScene::6171825001457226032::1733850675::0::1::::<><>::res://Scenes/main.gd<>uid://4ys6viix3lv6::::res://Assets/Space_BG (2 frames) (64 x 64).png<>uid://bleaoyt5st2me::::res://Scenes/player.tscn
+player.tscn::PackedScene::3166781767141947456::1733850418::0::1::::<><>::uid://mainfdt1grvx::::res://Assets/Player ship/Player_ship (16 x 16).png<>res://Scripts/player.gd<>uid://cio28lmpffuyy::::res://Assets/Player ship/Boosters_left (16 x 16).png<>uid://4567a4wphxmf::::res://Scenes/laser.tscn<>uid://bhgt6cvj36qfd::::res://Assets/Player ship/Boosters_right (16 x 16).png
+::res://Scripts/::1733850675
+bon_bon.gd::GDScript::-1::1733850675::0::1::::<>Area2D<>::
 laser.gd::GDScript::-1::1733331240::0::1::::<>Area2D<>::
-player.gd::GDScript::-1::1733762161::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1733849612::0::1::::<>Area2D<>::
