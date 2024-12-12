@@ -1,6 +1,8 @@
-res://Scenes/main.tscn
 res://Scripts/player.gd
-res://Scenes/player.tscn
+res://Scripts/enemy_laser.gd
+res://Scenes/enemy_laser.tscn
 res://Scenes/bon_bon.tscn
-res://Scenes/laser.tscn
 res://Scripts/bon_bon.gd
+res://Scenes/main.tscn
+res://Scenes/player.tscn
+res://Scenes/laser.tscn
